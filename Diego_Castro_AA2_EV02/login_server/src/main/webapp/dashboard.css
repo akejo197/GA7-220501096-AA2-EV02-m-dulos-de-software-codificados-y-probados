@@ -1,0 +1,29 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 28/03/2025, 12:38:45 a. m.
+    Author     : PC
+*/
+
+body{
+    background-color: #00E8F0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: auto;
+
+}
+h1{
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+}

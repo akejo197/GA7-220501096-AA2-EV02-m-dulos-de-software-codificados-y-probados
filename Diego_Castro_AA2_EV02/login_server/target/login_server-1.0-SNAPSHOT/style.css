@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 27/03/2025, 11:49:17 p. m.
+    Author     : PC
+*/
+
+body{
+    background-color: #00EFAF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 1px solid black;
+    display: flex;
+    height: 70%;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+h1{
+    color:red;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px
+}
+
+.btn:active{
+    background-color: #54D3F0;
+    transform: translateY(5px);
+}
+.btn:hover{
+    color: blue;
+    background-color: red
+}
